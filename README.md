@@ -1,3 +1,1 @@
-Lucas Margato Ladeira
-201235024
-lmladeira@gmail.com
+Lucas Margato Ladeira - 201235024 - lmladeira@gmail.com
