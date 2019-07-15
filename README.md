@@ -1,1 +1,3 @@
-# 2019-1-dcc196-trb3-lmladeira
+Lucas Margato Ladeira
+201235024
+lmladeira@gmail.com
