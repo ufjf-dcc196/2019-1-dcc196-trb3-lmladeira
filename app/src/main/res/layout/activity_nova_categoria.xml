@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+android:layout_gravity="center"
+tools:context=".NovaCategoriaActivity">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textNovaCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_span="2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Nova Categoria"
+        android:textSize="30sp" />
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editNovaCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:ems="12"
+        android:hint="Digite o nome da Categoria"
+        android:padding="5dp" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/buttonNovaCategoriaConfirma"
+        android:text="Confirmar"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</TableRow>
+
+</TableLayout>

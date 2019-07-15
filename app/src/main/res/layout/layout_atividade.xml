@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:collapseColumns="*"
+    android:stretchColumns="*"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/textIDAtividade"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:visibility="invisible"
+            android:text="id" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textAtividadeDescricao"
+            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:padding="5dp"
+            android:text="desc"
+            android:layout_span="2"/>
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textAtividadeData"
+            android:layout_width="20dp"
+            android:padding="5dp"
+            android:text="data" />
+
+        <TextView
+            android:id="@+id/textAtividadeHoras"
+            android:layout_width="20dp"
+            android:padding="5dp"
+            android:text="horas" />
+
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:collapseColumns="*"
+    android:stretchColumns="*"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textListaNome"
+            android:layout_width="20dp"
+            android:padding="5dp"
+            android:text="nome"
+            android:layout_span="4"/>
+
+        <TextView
+            android:id="@+id/textListaHoras"
+            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:padding="5dp"
+            android:text="horas" />
+
+    </TableRow>
+
+</TableLayout>

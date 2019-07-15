@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+android:layout_gravity="center"
+tools:context=".AlterarCandidatoActivity">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textAlterarCandidatoTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_span="2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Alterar Candidato"
+        android:textSize="36sp" />
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textAlterarCandidatoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Nome:" />
+
+    <EditText
+        android:id="@+id/editAlterarCandidatoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:ems="12"
+        android:hint="Digite o nome"
+        android:padding="5dp" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textAlterarCandidatoNascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Nascimento:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editAlterarCandidatoNascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ems="12"
+        android:inputType="date"
+        android:hint="Digite a data de nascimento" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textAlterarCandidatoPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Perfil:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editAlterarCandidatoPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ems="12"
+        android:inputType="textMultiLine"
+        android:hint="Digite o perfil" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textAlterarCandidatoTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Telefone:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editAlterarCandidatoTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ems="12"
+        android:inputType="textMultiLine"
+        android:hint="Digite o telefone" />
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textAlterarCandidatoEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Email:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editAlterarCandidatoEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ems="12"
+        android:inputType="textEmailAddress"
+        android:hint="Digite o email" />
+
+
+</TableRow>
+
+
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/buttonAlterarCandidatoConfirmar"
+        android:text="Confirmar"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</TableRow>
+
+</TableLayout>

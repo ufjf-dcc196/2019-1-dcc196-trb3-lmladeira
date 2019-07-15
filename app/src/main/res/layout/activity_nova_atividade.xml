@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+android:layout_gravity="center"
+tools:context=".NovaAtividadeActivity">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textNovaAtividade"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_span="2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Novo Atividade"
+        android:textSize="36sp" />
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textNovaAtividadeDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Descrição:" />
+
+    <EditText
+        android:id="@+id/editNovaAtividadeDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:ems="12"
+        android:hint="Digite a descrição"
+        android:padding="5dp" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textNovaAtividadeData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:inputType="date"
+        android:text="Data:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editNovaAtividadeData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="Digite a data" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textNovaAtividadeHoras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Horas:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editNovaAtividadeHoras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:inputType="number"
+        android:hint="Digite o número de horas" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/buttonNovaAtividadeConfirmar"
+        android:text="Confirmar"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</TableRow>
+
+</TableLayout>

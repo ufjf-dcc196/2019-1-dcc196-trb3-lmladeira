@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ListaCandidatosPorCategoriaActivity"></activity>
+        <activity android:name=".AlterarProducaoActivity" />
+        <activity android:name=".NovaAtividadeActivity" />
+        <activity android:name=".NovaProducaoActivity" />
+        <activity android:name=".AlterarCandidatoActivity" />
+        <activity android:name=".DetalhesProducaoActivity" />
+        <activity android:name=".NovaCategoriaActivity" />
+        <activity android:name=".GerenciarCategoriasActivity" />
+        <activity android:name=".DetalhesCandidatoActivity" />
+        <activity android:name=".NovoCandidatoActivity" />
+        <activity android:name=".HeadhunterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

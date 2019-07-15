@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+android:layout_gravity="center"
+tools:context=".NovaProducaoActivity">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textNovaProducao"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_span="2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Novo Produção"
+        android:textSize="36sp" />
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textNovaProducaoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Título:" />
+
+    <EditText
+        android:id="@+id/editNovaProducaoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:ems="12"
+        android:hint="Digite o título"
+        android:padding="5dp" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textNovaProducaoDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Descrição:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editNovaProducaoDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="Digite a descrição" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textNovaProducaoInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Início:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editNovaProducaoInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ems="12"
+        android:inputType="date"
+        android:hint="Digite a data de início" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textNovaProducaoFim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Fim:" />
+
+    <EditText
+        android:layout_gravity="left|center"
+        android:id="@+id/editNovaProducaoFim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ems="12"
+        android:inputType="date"
+        android:hint="Digite a data de fim" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="right|center"
+        android:id="@+id/textNovaProducaoCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Categoria:" />
+
+    <Spinner
+        android:layout_gravity="left|center"
+        android:id="@+id/editNovaProducaoCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" />
+
+</TableRow>
+
+
+<TableRow
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/buttonNovaProducaoConfirmar"
+        android:text="Confirmar"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</TableRow>
+
+</TableLayout>
